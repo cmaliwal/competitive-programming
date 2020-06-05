@@ -23,3 +23,8 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
     print(solution.fizzBuzz(15))
+
+"""
+One line solution:
+return [(not int(i)%3) * 'Fizz' + (not int(i)%5) * 'Buzz' or str(i) for i in range(1,n+1)]
+"""
